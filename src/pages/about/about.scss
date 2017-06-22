@@ -1,3 +1,6 @@
 page-about {
-
+    .list-ios > .item-block:last-child,
+    .list-ios > .item-wrapper:last-child .item-block {
+        border-bottom: 0;
+    }
 }

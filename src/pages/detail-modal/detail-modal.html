@@ -1,0 +1,24 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button (click)="close()">
+        <span ion-text color="primary">Cancel</span>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ title }}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="save()">
+        <span ion-text color="primary">Save</span>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-textarea [(ngModel)]="contents" placeholder="Enter here"></ion-textarea>
+  </ion-item>
+</ion-content>
