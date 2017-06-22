@@ -55,7 +55,7 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-googleplus": {
-                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.149608619485-1tlg1n90kiiqq1q19eb163mg1kl3b76k"
+                "REVERSED_CLIENT_ID": "YOUR ID HERE"
             },
             "cordova-plugin-console": {},
             "cordova-plugin-device": {},

@@ -22,12 +22,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AuthProvider } from '../providers/auth/auth';
 
 export const fireaseConfig = {
-    apiKey: "AIzaSyCCTeSzBRrD8y34KFOGlgMJ1og5EqD33as",
-    authDomain: "ionicmemo.firebaseapp.com",
-    databaseURL: "https://ionicmemo.firebaseio.com",
-    projectId: "ionicmemo",
-    storageBucket: "ionicmemo.appspot.com",
-    messagingSenderId: "149608619485"
+    apiKey: "<YOURS HERE>",
+    authDomain: "<YOURS HERE>",
+    databaseURL: "<YOURS HERE>",
+    projectId: "<YOURS HERE>",
+    storageBucket: "<YOURS HERE>",
+    messagingSenderId: "<YOURS HERE>"
   };
 
 @NgModule({
