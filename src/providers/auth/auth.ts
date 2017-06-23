@@ -5,8 +5,6 @@ import { GooglePlus } from '@ionic-native/google-plus';
 
 import { AngularFireAuth } from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
-//import { Http } from '@angular/http';
-//import 'rxjs/add/operator/map';
 
 @Injectable()
 export class AuthProvider {
@@ -19,7 +17,7 @@ export class AuthProvider {
   googleLogin(): firebase.Promise<any> {
     if(this.platform.is('cordova')) {
       this.gp.login({
-        'webClientId': '149608619485-ftinje9t83gu5pjt2ds2bqnua5jocjsk.apps.googleusercontent.com'
+        'webClientId': '<YOUR webClientId>'
       }).then( res => {
         console.log('device', res);
         return this.afAuth.auth.signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken));
